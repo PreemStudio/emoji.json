@@ -1,0 +1,10 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "node scripts/download.mjs && node scripts/build.mjs && dprint fmt"
+	},
+	"dependencies": {
+		"@sindresorhus/slugify": "^2.2.0",
+		"@types/node": "^18.15.11"
+	}
+}
